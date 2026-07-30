@@ -1,8 +1,13 @@
 aid: kismet
 name: Kismet
-description: 'Kismet is a company surfaced as a portfolio company of prosus-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: health. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Kismet is an Australian digital-health marketplace that connects people with disability
+  — primarily National Disability Insurance Scheme (NDIS) participants — to verified, available service
+  providers across occupational therapy, speech therapy, physiotherapy, support coordination and plan
+  management. The platform pairs a searchable provider marketplace and care index with a Concierge AI
+  matching service that builds a shortlist of suitable, available providers within 48 hours, alongside
+  budget-tracking and plan-management tools for participants. Kismet is backed by Prosus Ventures and
+  ships consumer iOS and Android apps. This profile was added to the API Evangelist network as a
+  portfolio-lead stub; no public developer API, documentation, or SDK surface was found during enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/kismet/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,31 @@ x-backed-by:
 - prosus-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.kismet.healthcare/static/favicon/icon-512.png
 tags:
 - Company
 - Health
+- Healthcare
+- Disability
+- NDIS
+- Marketplace
+- Australia
+- Care
+- Plan Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +48,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://kismet.healthcare
+  url: https://www.kismet.healthcare
+- type: Blog
+  url: https://www.kismet.healthcare/blog
+- type: Pricing
+  url: https://www.kismet.healthcare/for-providers/pricing
+- type: SignUp
+  url: https://www.kismet.healthcare/onboarding
+- type: Support
+  url: https://help.kismet.healthcare/hc/en-us
+- type: TermsOfService
+  url: https://www.kismet.healthcare/terms
+- type: PrivacyPolicy
+  url: https://www.kismet.healthcare/privacy
+- type: DomainSecurity
+  url: security/kismet-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
